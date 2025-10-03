@@ -12,24 +12,21 @@
         rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+   
 </head>
 
 <body>
-    <div class="Announsment-bar">
+      <div class="Announsment-bar">
         <div class="Announsment-bar-wrapper">
-
             <div class="Announsment-bar-inner">
                 <div class="Announsment-bar-content">
                     <p class="announcement-bar__message h5">
                         <span class="Announcement-text">FREE SHIPPING FOR ALL ORDERS $125+ (U.S. ONLY)</span>
-
                     </p>
                 </div>
             </div>
-
         </div>
     </div>
-
 
     <div class="header">
         <div class="header-wrapper">
@@ -42,7 +39,6 @@
                                     data-acsb-navigable="true" data-acsb-now-navigable="true"
                                     data-custom-button-processed="true">
                                     <div class="header__heading-logo-wrapper">
-
                                         <img class="img"
                                             src="//www.voilapets.com/cdn/shop/files/new-logo.svg?v=1727776623&amp;width=600"
                                             alt="VoilaPets.com"
@@ -56,6 +52,9 @@
                                 </a></h1>
                         </div>
                         <nav class="navbar">
+                            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                                <i class="fa fa-bars"></i>
+                            </button>
                             <ul class="nav-link">
                                 <li class="nav-li"><a class="link l1" href="#">Home</a></li>
                                 <li class="nav-li has-dropdown">
@@ -80,10 +79,16 @@
                                             <a href="#" class="dropdown-item">Shop All</a>
                                         </div>
                                         <div class="dropdown-image">
-                                            <a href="#" class="dropdown-image-item"><img  class="dropdown-image-item1" src="./image/1.webp" alt="image" width="230px" ><span>SHOP ALL</span></a>
-                                            <a href="#" class="dropdown-image-item"><img  class="dropdown-image-item1" src="./image/2.webp" alt="image" width="230px" ><span>ULTIMATE TREAT POUCH</span></a>
-                                            <a href="#" class="dropdown-image-item"><img  class="dropdown-image-item1" src="./image/3.webp" alt="image" width="230px" ><span>ACCESSORIES</span></a>
-                                            <a href="#" class="dropdown-image-item"><img  class="dropdown-image-item1" src="./image/4.webp" alt="image" width="230px" ><span>BEST SELLERS</span></a>
+                                            <a href="#" class="dropdown-image-item"><img class="dropdown-image-item1"
+                                                    src="./image/1.webp" alt="image" width="230px"><span>SHOP ALL</span></a>
+                                            <a href="#" class="dropdown-image-item"><img class="dropdown-image-item1"
+                                                    src="./image/2.webp" alt="image" width="230px"><span>ULTIMATE TREAT
+                                                    POUCH</span></a>
+                                            <a href="#" class="dropdown-image-item"><img class="dropdown-image-item1"
+                                                    src="./image/3.webp" alt="image" width="230px"><span>ACCESSORIES</span></a>
+                                            <a href="#" class="dropdown-image-item"><img class="dropdown-image-item1"
+                                                    src="./image/4.webp" alt="image" width="230px"><span>BEST
+                                                    SELLERS</span></a>
                                         </div>
                                     </div>
                                 </li>
@@ -95,7 +100,6 @@
                                     <div class="dropdown">
                                         <a href="#" class="dropdown-item">Our Story</a>
                                         <a href="#" class="dropdown-item">Gallery</a>
-                                      
                                     </div>
                                 </li>
                                 <li class="nav-li"><a class="link l4" href="#">FAQs</a></li>
@@ -129,7 +133,7 @@
                                     </g>
                                 </svg></div>
                             <hr class="Hr">
-                              <div class="icon" id="cart-icon">
+                            <div class="icon" id="cart-icon">
                                 <svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
                                     color="var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111))"
                                     style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111)); color: var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111)); flex-shrink: 0;"
@@ -148,7 +152,47 @@
             </header>
         </div>
     </div>
- 
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+    <div class="mobile-nav" id="mobile-nav">
+        <div class="mobile-nav-header">
+            <h2>Menu</h2>
+            <button class="close-mobile-nav" id="close-mobile-nav">&times;</button>
+        </div>
+        <div class="mobile-nav-links">
+            <div class="mobile-nav-item">
+                <a href="#" class="mobile-nav-link">Home</a>
+            </div>
+            <div class="mobile-nav-item">
+                <a href="#" class="mobile-nav-link">
+                    Shop
+                    <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </a>
+                <div class="mobile-dropdown">
+                    <a href="#" class="mobile-dropdown-item">Ultimate Treat Pouch</a>
+                    <a href="#" class="mobile-dropdown-item">Accessories</a>
+                    <a href="#" class="mobile-dropdown-item">Shop All</a>
+                </div>
+            </div>
+            <div class="mobile-nav-item">
+                <a href="#" class="mobile-nav-link">
+                    About Us
+                    <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </a>
+                <div class="mobile-dropdown">
+                    <a href="#" class="mobile-dropdown-item">Our Story</a>
+                    <a href="#" class="mobile-dropdown-item">Gallery</a>
+                </div>
+            </div>
+            <div class="mobile-nav-item">
+                <a href="#" class="mobile-nav-link">FAQs</a>
+            </div>
+            <div class="mobile-nav-item">
+                <a href="#" class="mobile-nav-link">Contact Us</a>
+            </div>
+        </div>
+    </div>
 
     <div class="video-bar">
         <div class="video-bar-wrapper">
@@ -161,36 +205,29 @@
                             src="./3c6eff7b043d46b9b698843a8d06bc2a.HD-1080p-2.5Mbps-34828060.mp4"
                             data-acsb-hidden="true" aria-hidden="true">
                     </video>
-                    <div class="video-text-bar">
-                        <div class="text-bar-video">
-                            <h2>The ultimate treat pouch</h2>
-                            <div class="button-bar">
-                                <a class="button" href="#">Gets your</a>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
-
             </div>
         </div>
     </div>
 
-     <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-overlay" id="cart-overlay"></div>
     <div class="cart-sidebar" id="cart-sidebar">
         <div class="cart-header">
-      
             <button class="close-cart" id="close-cart">&times;</button>
         </div>
         <div class="cart-content">
             <div class="empty-cart-message">YOUR CART IS EMPTY</div>
-            <a href="#" class="continue-shopping">Continue Shopping</a> 
+            <a href="#" class="continue-shopping">Continue Shopping</a>
             <div class="account-section">
                 <div class="account-title">HAVE AN ACCOUNT?</div>
                 <a href="#" class="login-link">Log in to check out faster.</a>
             </div>
         </div>
     </div>
-    <script src="./js/SCRIPT.JS"></script>
+    <script src="./js/SCRIPT.js"></script>
+        
+      
 </body>
 
 </html>
