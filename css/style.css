@@ -74,15 +74,14 @@
             gap: 14px;
         }
 
-        .header-content {
-            display: grid;
-            grid-template-columns: auto 1fr auto;
-            align-items: center;
-            background: azure;
-            padding: 13px 2.1rem 12px 1.5rem;
-            border-radius: 5px;
-        }
-
+      .header-content {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    background: azure;
+    padding: 13px 2.1rem 11px 1.5rem;
+    border-radius: 5px;
+}
         .header {
             position: sticky;
             z-index: 1;
@@ -121,7 +120,9 @@
             padding-left: 6px;
             padding-bottom: 0px;
         }
-
+img.img {
+    height: 37px;
+}
         a.link.l3 {
             padding-left: 10px;
         }
@@ -138,10 +139,9 @@
             gap: 4px;
         }
 
-        a.link.l4 {
-            padding-left: 19px;
-        }
-
+      a.link.l4 {
+    padding-left: 20px;
+}
         a.link.l5 {
             padding-left: 35px;
         }
@@ -154,12 +154,12 @@
             width: -29px;
         }
 
-        hr.Hr1 {
-            opacity: 1.9;
-            height: 25px;
-            padding-left: -32px;
-            width: -29px;
-        }
+      hr.Hr1 {
+    opacity: 1.9;
+    height: 25px;
+    padding-left: -32px;
+    width: 2px;
+}
 
         .video-content {
             position: relative;
@@ -200,17 +200,18 @@
             position: relative;
         }
 
-        .link {
-            color: #435870;
-            font-size: 16px;
-            font-weight: 600;
-            letter-spacing: 0.7px;
-            font-family: 'Poppins', sans-serif;
-            padding: 0px 5px;
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
+.link {
+    color: #435870;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding-top: 1px;
+}
 
         /* Dropdown styles */
         .dropdown {
