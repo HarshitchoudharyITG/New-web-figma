@@ -519,8 +519,42 @@ img.img {
             padding: 10px 0;
             color: #435870;
         }
+.video-text {
+    position: absolute;
+    top: 545px;
+    display: flex;
+    grid-template-columns: 126% 20%;
+    gap: 83px;
+    align-items: center;
+    left: 110px;
+}
+h2.video-h2 {
+    font-size: 48px;
+    color: aliceblue;
+}
 
-        /* Responsive Design - Step by Step */
+.video-button {
+    border: 1px solid  #435870;
+    
+    border-radius: 83px;
+    background-color: #435870;
+    color: #ffff;
+}
+.A {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 1000px;
+    padding: 0;
+    color: #ffff;
+}
+.video-text-button {
+    padding-left: 278px;
+}
+       /* Responsive Design - Step by Step */
 
         /* Step 1: Large Tablets (992px - 1200px) */
         @media (max-width: 1200px) {
@@ -532,7 +566,18 @@ img.img {
             .text-bar-video {
                 gap: 120px;
             }
-
+.video-text {
+    position: absolute;
+    top: 545px;
+    display: flex;
+    grid-template-columns: 126% 20%;
+    /* gap: 83px; */
+    align-items: center;
+    left: 110px;
+}
+.video-text-button {
+    padding-left: 68px;
+}
             .video-text-bar {
                 left: 60px;
             }
@@ -545,6 +590,15 @@ img.img {
                 width: 550px;
                 padding-left: 30px;
             }
+            .video-text {
+    position: absolute;
+    top: 545px;
+    display: flex;
+    grid-template-columns: 126% 20%;
+    gap: 83px;
+    align-items: center;
+    left: 110px;
+}
         }
 
         /* Step 2: Tablets (768px - 992px) */
